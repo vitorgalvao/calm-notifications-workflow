@@ -2,11 +2,11 @@
 
 Toggle Do Not Disturb Focus Mode
 
-<a href='https://alfred.app/workflows/vitor/calm-notifications'>⤓ Install From the Alfred Gallery</a>
+[⤓ Install on the Alfred Gallery](https://alfred.app/workflows/vitor/calm-notifications)
 
 ## Usage
 
-Toggle your Focus Mode via the Do Not Disturb Keyword (default: `dnd`). Optionally give a number when enabling to activate it for that amount of minutes, or hours if an `h` is appended.
+Toggle your Focus Mode via the `dnd` keyword. Optionally give a number when enabling to activate it for that amount of minutes, or hours if an `h` is appended.
 
 ![Alfred search for dnd, turn on](Workflow/images/about/dnd_on.png)
 
