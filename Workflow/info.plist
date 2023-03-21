@@ -255,7 +255,7 @@ function run(argv) {
 	<key>readme</key>
 	<string>## Usage
 
-Toggle your Focus Mode via the Do Not Disturb Keyword (default: `dnd`). Optionally give a number when enabling to activate it for that amount of minutes, or hours if an `h` is appended.
+Toggle your Focus Mode via the `dnd` keyword. Optionally give a number when enabling to activate it for that amount of minutes, or hours if an `h` is appended.
 
 ![Alfred search for dnd, turn on](images/about/dnd_on.png)
 
