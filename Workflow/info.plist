@@ -176,7 +176,7 @@ function run(argv) {
     // Focus enabled
     if (currentFocus.length &gt; 0) {
       return sfItem({
-        title: `Turn off ${currentFocus} Focus`,
+        title: `Turn Off ${currentFocus} Focus`,
         arg: "off"
       })
     }
@@ -194,7 +194,7 @@ function run(argv) {
   // Any given value must start with a digit
   if (givenTimeout === undefined || !givenTimeout.match(/^\d/)) {
     return sfItem({
-      title: "Turn on Do Not Distub",
+      title: "Turn On Do Not Distub",
       arg: "on",
       icon: { path: "icon_alt.png" }
     })
@@ -207,9 +207,14 @@ function run(argv) {
 
   const plurality = timeoutMinutes === 1 ? "minute" : "minutes"
 
+  // Calculate clock
+  const date = new Date() // Current time
+  date.setMinutes(date.getMinutes() + timeoutMinutes)
+  const clock = date.toISOString().slice(11, 16)
+
   return sfItem({
-    title: "Turn on Do Not Disturb",
-    subtitle: `Enable for ${timeoutMinutes} ${plurality}`,
+    title: `Turn On Do Not Disturb for ${timeoutMinutes} ${plurality}`,
+    subtitle: `Enable until ${clock}`,
     arg: timeoutMinutes,
     icon: { path: "icon_alt.png" }
   })
