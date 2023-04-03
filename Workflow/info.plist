@@ -148,13 +148,13 @@
 				<key>keyword</key>
 				<string>{var:dnd_keyword}</string>
 				<key>queuedelaycustom</key>
-				<integer>1</integer>
+				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
-				<false/>
+				<true/>
 				<key>queuedelaymode</key>
 				<integer>0</integer>
 				<key>queuemode</key>
-				<integer>1</integer>
+				<integer>2</integer>
 				<key>runningsubtext</key>
 				<string>Getting status…</string>
 				<key>script</key>
@@ -210,7 +210,7 @@ function run(argv) {
   // Calculate clock
   const date = new Date() // Current time
   date.setMinutes(date.getMinutes() + timeoutMinutes)
-  const clock = date.toISOString().slice(11, 16)
+  const clock = date.toTimeString().slice(0, 5)
 
   return sfItem({
     title: `Turn On Do Not Disturb for ${timeoutMinutes} ${plurality}`,
