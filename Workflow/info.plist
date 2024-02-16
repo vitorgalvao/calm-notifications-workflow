@@ -223,6 +223,8 @@ function run(argv) {
 				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
 				<key>subtext</key>
 				<string>Toggle Do Not Disturb Focus Mode</string>
 				<key>title</key>
