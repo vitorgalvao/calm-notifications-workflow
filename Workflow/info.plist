@@ -6,11 +6,11 @@
 	<string>com.vitorgalvao.alfred.calmnotifications</string>
 	<key>connections</key>
 	<dict>
-		<key>3E435725-836B-4634-BF9F-B8DBADDDEABF</key>
+		<key>228CA655-B48E-4447-9782-037C52600826</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>691C6DBC-41AA-4F22-81C2-8B61B8CB96A4</string>
+				<string>23D73BBF-CCE5-4C31-BFDC-031D81E36F11</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -19,11 +19,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>691C6DBC-41AA-4F22-81C2-8B61B8CB96A4</key>
+		<key>23D73BBF-CCE5-4C31-BFDC-031D81E36F11</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>E401EEF4-8CBC-46C1-A171-B3F07F5A99BC</string>
+				<string>A21534A2-4F21-4969-98E9-37A642841660</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -33,6 +33,22 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+		</array>
+		<key>3E435725-836B-4634-BF9F-B8DBADDDEABF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4ED1CDCB-8AEE-422F-9A1F-C760907A1D6F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4ED1CDCB-8AEE-422F-9A1F-C760907A1D6F</key>
+		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>7F5F20EB-6D1D-44D4-9FB7-46BA2514837C</string>
@@ -43,12 +59,37 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>228CA655-B48E-4447-9782-037C52600826</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A21534A2-4F21-4969-98E9-37A642841660</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2EEEE782-BC2A-415F-AF89-7D8D46BED423</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>_button1</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>CCD42A98-2018-4BC4-9B3A-90AA2B0AEB3A</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>691C6DBC-41AA-4F22-81C2-8B61B8CB96A4</string>
+				<string>4ED1CDCB-8AEE-422F-9A1F-C760907A1D6F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -71,21 +112,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>Calm Notifications.shortcut</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>E401EEF4-8CBC-46C1-A171-B3F07F5A99BC</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>availableviaurlhandler</key>
 				<false/>
 				<key>triggerid</key>
@@ -101,32 +127,58 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>install</string>
-						<key>outputlabel</key>
-						<string>Install Shortcut</string>
-						<key>uid</key>
-						<string>10800F7B-3F08-4143-BE36-26AA026B629D</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>Run Shortcut</string>
-				<key>hideelse</key>
-				<false/>
+				<key>inputmode</key>
+				<integer>0</integer>
+				<key>outputmode</key>
+				<integer>0</integer>
+				<key>shortcut</key>
+				<string>Calm Notifications</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
+			<string>alfred.workflow.automation.runshortcut</string>
 			<key>uid</key>
-			<string>691C6DBC-41AA-4F22-81C2-8B61B8CB96A4</string>
+			<string>7F5F20EB-6D1D-44D4-9FB7-46BA2514837C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.junction</string>
+			<key>uid</key>
+			<string>4ED1CDCB-8AEE-422F-9A1F-C760907A1D6F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>Calm Notifications.shortcut</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>2EEEE782-BC2A-415F-AF89-7D8D46BED423</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>tasksettings</key>
+				<dict>
+					<key>target_shortcut</key>
+					<string>Calm Notifications</string>
+				</dict>
+				<key>taskuid</key>
+				<string>com.alfredapp.automation.core/shortcuts/shortcut.installed</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.automation.task</string>
+			<key>uid</key>
+			<string>228CA655-B48E-4447-9782-037C52600826</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -244,17 +296,53 @@ function run(argv) {
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>inputmode</key>
-				<integer>0</integer>
-				<key>outputmode</key>
-				<integer>0</integer>
-				<key>shortcut</key>
-				<string>Calm Notifications</string>
+				<key>button1</key>
+				<string>Install Shortcut</string>
+				<key>button2</key>
+				<string>Cancel</string>
+				<key>button3</key>
+				<string></string>
+				<key>description</key>
+				<string>A Shorcut is required to perform this action.</string>
+				<key>title</key>
+				<string>Shortcut Not Installed</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.automation.runshortcut</string>
+			<string>alfred.workflow.utility.dialog</string>
 			<key>uid</key>
-			<string>7F5F20EB-6D1D-44D4-9FB7-46BA2514837C</string>
+			<string>A21534A2-4F21-4969-98E9-37A642841660</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>6</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Missing Shortcut</string>
+						<key>uid</key>
+						<string>10800F7B-3F08-4143-BE36-26AA026B629D</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>23D73BBF-CCE5-4C31-BFDC-031D81E36F11</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -271,6 +359,33 @@ Toggle your Focus Mode via the `dnd` keyword. Optionally give a number when enab
 ![Alfred search for dnd, turn off](images/about/dnd_off.png)</string>
 	<key>uidata</key>
 	<dict>
+		<key>228CA655-B48E-4447-9782-037C52600826</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>390</real>
+			<key>ypos</key>
+			<real>155</real>
+		</dict>
+		<key>23D73BBF-CCE5-4C31-BFDC-031D81E36F11</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>540</real>
+			<key>ypos</key>
+			<real>185</real>
+		</dict>
+		<key>2EEEE782-BC2A-415F-AF89-7D8D46BED423</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>750</real>
+			<key>ypos</key>
+			<real>155</real>
+		</dict>
 		<key>3E435725-836B-4634-BF9F-B8DBADDDEABF</key>
 		<dict>
 			<key>xpos</key>
@@ -278,31 +393,33 @@ Toggle your Focus Mode via the `dnd` keyword. Optionally give a number when enab
 			<key>ypos</key>
 			<real>155</real>
 		</dict>
-		<key>691C6DBC-41AA-4F22-81C2-8B61B8CB96A4</key>
+		<key>4ED1CDCB-8AEE-422F-9A1F-C760907A1D6F</key>
 		<dict>
 			<key>xpos</key>
-			<real>230</real>
+			<real>260</real>
 			<key>ypos</key>
-			<real>115</real>
+			<real>125</real>
 		</dict>
 		<key>7F5F20EB-6D1D-44D4-9FB7-46BA2514837C</key>
 		<dict>
 			<key>xpos</key>
-			<real>395</real>
+			<real>390</real>
 			<key>ypos</key>
-			<real>155</real>
+			<real>35</real>
+		</dict>
+		<key>A21534A2-4F21-4969-98E9-37A642841660</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>610</real>
+			<key>ypos</key>
+			<real>175</real>
 		</dict>
 		<key>CCD42A98-2018-4BC4-9B3A-90AA2B0AEB3A</key>
 		<dict>
 			<key>xpos</key>
 			<real>50</real>
-			<key>ypos</key>
-			<real>35</real>
-		</dict>
-		<key>E401EEF4-8CBC-46C1-A171-B3F07F5A99BC</key>
-		<dict>
-			<key>xpos</key>
-			<real>395</real>
 			<key>ypos</key>
 			<real>35</real>
 		</dict>
