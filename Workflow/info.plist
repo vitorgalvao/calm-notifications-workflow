@@ -449,7 +449,7 @@ Toggle your Focus Mode via the `dnd` keyword. Optionally give a number when enab
 		</dict>
 	</array>
 	<key>version</key>
-	<string>2023.5</string>
+	<string>2025.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/vitorgalvao/calm-notifications-workflow/</string>
 </dict>
