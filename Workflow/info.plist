@@ -246,7 +246,7 @@ function run(argv) {
   // Any given value must start with a digit
   if (givenTimeout === undefined || !givenTimeout.match(/^\d/)) {
     return sfItem({
-      title: "Turn On Do Not Distub",
+      title: "Turn On Do Not Disturb",
       arg: "on",
       icon: { path: "icon_alt.png" }
     })
